@@ -1,0 +1,30 @@
+package ReverseString;
+
+public class Duplicate {
+	public static String duplicate(String z)
+	{
+		String[] str=z.split("");
+		str.t
+		String temp="";
+		for(int i=0;i<str.length;i++)
+		{
+			if(temp.contains(str[i]))
+			{
+				temp=temp+str[i];
+			}
+		}
+		
+		return temp;
+
+}
+		
+	
+
+
+	public static void main(String[] args) {
+		String str="Programming";
+	String	str2=duplicate(str);
+	System.out.println(str2);
+	}
+		
+}

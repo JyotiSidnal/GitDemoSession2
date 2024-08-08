@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class AddTwoArray {
 
 	public static void main(String[] args) {
+		//second commit
+		//second commit
 		ArrayList<Integer> arr=new ArrayList<>();
 		arr.add(10);
 		arr.add(20);

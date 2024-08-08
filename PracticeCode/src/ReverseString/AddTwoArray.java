@@ -15,6 +15,8 @@ public class AddTwoArray {
 		ArrayList<Integer> combined=new ArrayList<>(arr);
 		combined.addAll(arr1);
 		System.out.println(combined);
+		//git practice session1
+		//git practice session2
 		
 
 	}
